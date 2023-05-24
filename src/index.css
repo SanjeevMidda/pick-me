@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App{
+  display: flex;
+  background: url("./imgs/hands.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  font-size: 100px;
+  font-weight: 600;
+  color: black;
+  /* margin: auto; */
+  /* margin-bottom: 32%; */
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 100%;
+}
+
+nav * {
+  margin: 30px;
+}
+
+h3{
+  color: orangered;
+}
